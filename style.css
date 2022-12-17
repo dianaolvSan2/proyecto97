@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+}
+header{
+    width:100%;
+    height: 60px;
+}
+
+header nav{
+    display:flex;
+    justify-content: flex-end;
+    height: auto; 
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+    width:50px;
+}
+
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+a img{
+    width: 40px;
+}
+
+main{
+    text-align: center;
+    margin-top:100px;
+   display: inline-block;
+    
+}
+
+.section-logo{
+    width: 530px;
+    margin: 0;
+    margin-bottom: 35px;
+}
+#logo{
+    width: 130px;
+}
+.section-logo img{
+    width: 60px;
+}
+
+.section-input{
+    background-color:black;
+    color: white;
+    width:50%;
+    border-radius: 50px;
+}
+
+.section-input img{
+    width: 29px;
+}
+
+.section-input button{
+    background-color:white;
+    color: black;
+    border-radius: 50px;
+    padding:10px;
+}
+
+.input{
+color: black;
+}
+
+#output {
+	padding: 10px;
+	width: 80%;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+}
+
+
+.input_div_message_page{
+    background-color:black;
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    border-style: dotted;
+}
+.input_div_message_page label{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.input_div_message_page button{
+    background-color: white;
+    padding: 5px;
+    border-radius:20px;
+
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+#section_sala{
+    width: 100%;
+    height:250px;
+    text-align: center;
+    display: inline-block;
+}
+
+#section_sala label{
+    display: block;
+    font-size:15px;
+    font-weight: bold;
+}
